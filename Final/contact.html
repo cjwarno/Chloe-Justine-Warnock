@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <style>
+      main, section {
+          display: flex;
+      }
+    section {
+         border: 4px solid black;
+         padding: 20px;
+         margin: 10px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+            $( "#tabs" ).tabs();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="container">
+
+    <header id="#top">
+      <h1>Chloe Warnock</h1>
+        <h1>Photography</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="more.html">More Information</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <main>
+        <section>
+            <article>
+
+              <h2>Social Media</h2>
+              <table>
+                <tr>
+                <th>Instagram</th>
+                <td>_CJW_Photography</td>
+              </tr>
+              <tr>
+                <th>Facebook</th>
+                <td>Chloe Warnock</td>
+              </tr>
+              <tr>
+              <th>Twitter</th>
+                <td>_CJW_Photography</td>
+              </tr>
+              <tr>
+              <th>Snapchat</th>
+                <td>ChloeJWarnock</td>
+              </tr>
+              </table>
+            </article>
+</div>
+
+<div class="feature">
+  <h3 id="portfolio"></h3>
+  <div class="projects">
+    <a href="images/gibs.jpg" data-lightbox="Photos" data-title="Dog">
+      <img src="images/gibs.jpg" alt="Dog">
+  </a>
+  </div>
+
+            </div>
+         <aside id="contact">
+            <h3>More Information</h3>
+            <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="111-111-1111">Call</a></li>
+                </ul>
+          </aside>
+
+        </section>
+    </main>
+    
+
+<footer>
+  <p>&copy; 2021 - CJW Photography</p>
+</footer>
+</body>
+</html>

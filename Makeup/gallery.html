@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <style>
+        section {
+            width: 100%;
+            text-align: center;
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+            $( "#tabs" ).tabs();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="container">
+
+    <header id="#top">
+        <h1>Chloe Warnock</h1>
+        <h1>Photography</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="more.html">More Information</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <main>
+        <section>
+          <h2>My Portfolio</h2>
+          
+          <div class="feature">
+                    <h3 id="portfolio">Photos</h3>
+                    <div class="projects, center">
+                       <a href="images/noahfav.jpg" data-lightbox="Photos" data-title="Noah">
+                        <img src="images/noahfav.jpg" alt="Noah">
+                    </a>
+                    </div>
+
+<h2>Trails</h2>
+
+                <div class="slider">
+                    <div><img src="images/trail2.jpg" alt="Trail" style="width:800px;height:auto;"></div>
+                    <div><img src="images/rocks.jpg" alt="More Rocks" style="width:800px;height:auto;"></div>
+                    <div><img src="images/trail.jpg" alt="Trail" style="width:800px;height:auto;"></div>
+                    <div><img src="images/trail3.jpg" alt="Another Trail" style="width:800px;height:auto;"></div>
+                    <div><img src="images/trail4.jpg" alt="Trail Again" style="width:800px;height:auto;"></div>
+                  </div>
+
+<h2>Nature</h2>
+
+                  <div class="slider">
+                    <div><img src="images/porch.jpg" alt="Porch" style="width:800px;height:auto;"></div>
+                    <div><img src="images/snow.jpg" alt="Snow" style="width:500px;height:auto;"></div>
+                    <div><img src="images/Leaves.jpg" alt="Moss" style="width:500px;height:auto;"></div>
+                    <div><img src="images/TreeBranch.jpg" alt="Branch" style="width:800px;height:auto;"></div>
+                    <div><img src="images/weeds.jpg" alt="Clouds" style="width:800px;height:auto;"></div>
+                  </div>
+
+                  <h2>People</h2>
+
+                  <div class="slider">
+                    <div><img src="images/185661151_381636500047797_7381979704386691305_n.jpg" alt="Mads" style="width:800px;height:auto;"></div>
+                    <div><img src="images/mads.jpg" alt="Motorcycle" style="width:500px;height:auto;"></div>
+                    <div><img src="images/185489191_831944201035160_4451780804222585868_n.jpg" alt="Smiles" style="width:800px;height:auto;"></div>
+                    <div><img src="images/185843507_1344479669279749_5108338357685769851_n.jpg" alt="Orange" style="width:800px;height:auto;"></div>
+                    <div><img src="images/noah.jpg" alt="Kite" style="width:800px;height:auto;"></div>
+                  </div>
+
+                  <a class="button" href="#top">Back To the Top</a>
+            </div>
+
+        </section>
+
+        
+
+
+    </main>
+    
+
+<footer>
+    <p>&copy; 2021 - CJW Make-Up</p>
+</footer>
+</body>
+</html>
