@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #FFFFFF;
+    background-color: #880808;
     color: #000;
     padding: 10% 0;
     text-align: center;
@@ -27,7 +27,7 @@ img {
 }
 
 nav {
-    background-color: #fff;
+    background-color: #880808;
 }
 
 nav ul {
@@ -41,7 +41,7 @@ nav li {
 
 nav li a:hover {
     background-color: #000;
-    color: #fff;
+    color: #880808;
 }
 
 #container {
@@ -53,14 +53,14 @@ nav li a:hover {
 }
 
 main {
-    background-color: #fff;
+    background-color: #880808;
     margin: 10px auto;
     padding: 10px;
     border: 2px solid #020708;
 }
 
 article {
-    background-color: #fff;
+    background-color: #880808;
     padding: 0;
 }
 
@@ -83,7 +83,7 @@ article img {
   }
 
 .projects {
-    background-color: #fff;
+    background-color: #880808;
     padding: 0;
     margin-top: 0%;
 }
@@ -95,7 +95,7 @@ article img {
 }
 
 aside {
-    background-color: #fff;
+    background-color: #880808;
     margin: 0 0;
     padding: 0;
     text-align: center;
@@ -116,7 +116,7 @@ aside li {
 
 aside li a {
     padding: 0 0;
-    background-color: #fff;
+    background-color: #880808;
     text-align: center;
     color: #000;
     font-size: 75%;
@@ -124,18 +124,18 @@ aside li a {
 }
 
 aside li a:hover {
-    background-color: #fff;
+    background-color: #880808;
 }
 
 footer {
-    background-color: #fff;
+    background-color: #880808;
     text-align: center;
     color: #000;
     padding: 0 0;
 }
 
 .feature {
-    background-color: #fff;
+    background-color: #880808;
     padding: 0 0;
     margin-top: 0%;
 }
@@ -152,7 +152,7 @@ div.bx-wrapper {
     padding: 0 0;
     background-color: #000;
     text-align: center;
-    color: #fff;
+    color: #880808;
     font-size: 75%;
     text-decoration: none;
 }
@@ -178,7 +178,7 @@ video {
     }
 
     nav li  a {
-        background-color: #fff;
+        background-color: #880808;
         color: #000;
     }
 
@@ -209,7 +209,7 @@ video {
     }
 
     .feature {
-        background-color: #fff;
+        background-color: #880808;
         padding: 0 0;
         margin-top: 0%;
     }
