@@ -202,20 +202,6 @@ video {
 
 @media screen and (min-width: 790px) {
 
-    article img {
-        display: block;
-        margin: 20px 0;
-        width: 75%;
-    }
-
-    .feature {
-        background-color: #fff;
-        padding: 0 0;
-        margin-top: 0%;
-    }
-
-    .projects {
-        margin: 0%;
-    }
+   
 
 }
